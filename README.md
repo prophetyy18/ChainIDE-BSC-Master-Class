@@ -26,7 +26,7 @@ Community Supervisor twitter: https://twitter.com/prophet88881
 If you have any question about the IDE or you face some problems when you create a project.
 You can go to our telegram to ask for help.
 
-# Donate
+# Donation
 
 We prepare these materials and courses entirely for public welfare.
 If you guys feel learn a lot from these material, and achieved success.
