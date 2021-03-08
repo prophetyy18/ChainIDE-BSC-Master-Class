@@ -1,9 +1,8 @@
 pragma solidity ^0.6.0;
-// Import contract for both dapp anf DAI token.
+// Import contracts for both Dapp and DAI token.
 import "./DaiToken.sol";
 import "./DappToken.sol";
 
-//address 0x5edCa09E0E2B637AC63aF82d55de10db0cC25F95
 
 contract TokenFarm{
     string public name = "Dapp Token Farm";
@@ -42,7 +41,10 @@ contract TokenFarm{
         }
         hasStaked[msg.sender] = true;
     }
-
+       
+       
+       //require checks if the condition is true, thows the exceptionotherwise 'trader is not owner'.
+       //if the require condition is true, then all the tokens that are staked, are unstaked .
     function unstakeToken() public {
         require(isStaking[msg.sender] == true,"You have nothing to unstake.");
         uint balance = stakingBalance[msg.sender];
@@ -54,7 +56,7 @@ contract TokenFarm{
     function stakeAmount(address _owner) public view returns(uint) {
         returns stakingBalance[_owner];
     }
-//
+// 
     function issusToken() public {
         require(msg.sender==owner,"trader is not owner");
         for(uint i=0; i<staker.length;i++){
