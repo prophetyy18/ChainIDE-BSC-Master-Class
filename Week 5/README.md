@@ -1,6 +1,5 @@
-# Week 5
-
-###This week is about how to create an ERC20/BEP20 token and use it to create a farming system.
+# Week5
+**This week is about how to create an ERC20/BEP20 token and use it to create a farming system.**
 
 After you deployed the ERC20/BEP20 token, you should write it down. When you create the farming contract, you should paste them to the corresponding parameters.
 
