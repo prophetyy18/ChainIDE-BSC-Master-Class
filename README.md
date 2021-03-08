@@ -1,6 +1,6 @@
 # ChainIDE-BSC-Master-Class
 
-A 8 weeks Master Class delivered by ChainIDE & BSC.
+An 8 weeks Master Class delivered by ChainIDE & BSC.
 We aim to increase the number of solidity developers and help developers grow better.
 
 
@@ -29,7 +29,7 @@ You can go to our telegram to ask for help.
 # Donation
 
 We prepare these materials and courses entirely for public welfare.
-If you guys feel learn a lot from these material, and achieved success.
-May be you can donate us or airdrop your project token.
+If you guys feel learn a lot from these materials, and achieved success.
+Maybe you can donate us or airdrop your project token.
 
 eth/bsc: 0x262a6F88604aa10B30565b02731441Ab55D9E9a3
