@@ -5,7 +5,7 @@ contract DaiToken {
     string  public symbol = "mDAI";
     uint256 public totalSupply_ = 1000000000000000000000000; // 1 million tokens
     uint8   public decimals = 18;
-
+// aaaaaaaaaaaaaa
     event Transfer(
         address indexed _from,
         address indexed _to,
