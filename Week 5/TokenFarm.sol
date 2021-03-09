@@ -56,7 +56,7 @@ contract TokenFarm{
    //@param _owner is the address of the owner which is msg.sender
    // returns the staking balance
     function stakeAmount(address _owner) public view returns(uint) {
-        returns stakingBalance[_owner];
+        return stakingBalance[_owner];
     }
 // 
     function issusToken() public {
