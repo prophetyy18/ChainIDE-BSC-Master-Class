@@ -48,6 +48,7 @@ contract TokenFarm{
     function unstakeToken() public {
         require(isStaking[msg.sender] == true,"You have nothing to unstake.");
         uint balance = stakingBalance[msg.sender];
+        stakingBalance[msg.sender] = 0;
         daiToken.transfer(msg.sender,balance);
         isStaking[msg.sender] = false;
     }
