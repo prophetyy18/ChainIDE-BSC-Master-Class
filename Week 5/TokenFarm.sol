@@ -35,10 +35,11 @@ contract TokenFarm{
         
         // The balance of the owner of the contract, after staking the coins.
         stakingBalance[msg.sender] = stakingBalance[msg.sender] + _amount;
-
+        
         if(!hasStaked[msg.sender]){
             staker.push(msg.sender);
         }
+        isStaking[msg.sender] = true;
         hasStaked[msg.sender] = true;
     }
        
