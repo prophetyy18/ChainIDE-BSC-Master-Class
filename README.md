@@ -6,9 +6,11 @@ We aim to increase the number of solidity developers and help developers grow be
 
 # Online Solidity IDE(All support by ChainIDE)
 
-eth:https://eth.chainide.com/
+Official website:https://chainide.com/
 
-bsc:https://bscide.com/
+ETH:https://eth.chainide.com/
+
+BSC:https://bscide.com/
 
 You guys can program and test your project on the above mentioend platforms.
 All of the services are free for now.
