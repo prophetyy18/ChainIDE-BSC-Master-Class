@@ -1,4 +1,4 @@
-# This is Week 6 material 
+# Week 6  
 
-It's about how to create a reabse token, and how to achieve rebase system.
+**This week is about how to create a reabse token, and how to achieve the rebase system.**  
 
