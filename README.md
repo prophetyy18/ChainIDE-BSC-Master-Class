@@ -12,6 +12,8 @@ Week5: Including ERC20/BEP20 example. Using the ERC20/BEP20 to build a staking &
 
 Week6: Including a rebase system example. Using the algorithm to achieve the rebase process.
 
+Week7: Including a Lonly Twitter project. Using HTML&&Javascript to build a simple UI interact with the smart contract.
+
 # Online Solidity IDE(All support by ChainIDE)
 
 Official website: https://chainide.com/  
